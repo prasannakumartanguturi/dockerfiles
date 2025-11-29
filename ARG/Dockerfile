@@ -6,7 +6,7 @@
 
 FROM nginx:9
 ARG course = "devops_docker" \
-    trainer = "siva" 
+ARG trainer = "siva" 
 ENV course = "docker" \
     trainer = "sivakumatM"
 RUN echo "couse=${course} trainer = ${trainer}"
