@@ -5,10 +5,10 @@
 # FROM nginx:${VERSION:-9}
 
 FROM nginx:9
-ARG course = "devops_docker"
-ARG trainer = "siva" 
-#ENV course = "docker" \
- #   trainer = "sivakumatM"
+ARG course="devops_docker" \
+    trainer="siva" 
+ENV course = "docker" \
+    trainer = "sivakumatM"
 RUN echo "couse=${course} trainer = ${trainer}"
 CMD ["sleep","1000"]
 
