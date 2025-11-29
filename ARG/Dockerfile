@@ -7,8 +7,8 @@
 FROM nginx
 ARG course="devops_docker" \
     trainer="siva" 
-ENV course = "docker" \
-    trainer = "sivakumatM"
+#ENV course = "docker" \
+#    trainer = "sivakumatM"
 RUN echo "couse=${course} trainer = ${trainer}"
 CMD ["sleep","1000"]
 
