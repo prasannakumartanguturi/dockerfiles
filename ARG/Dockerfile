@@ -5,7 +5,7 @@
 # FROM nginx:${VERSION:-9}
 
 FROM nginx:9
-ARG course = "devops_docker" \
+ARG course = "devops_docker"
 ARG trainer = "siva" 
 ENV course = "docker" \
     trainer = "sivakumatM"
