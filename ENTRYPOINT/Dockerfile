@@ -4,4 +4,4 @@
 
 FROM almalinux:9
 CMD ["google.com"]
-ENTRYPINT ["ping"]
+ENTRYPOINT ["ping"]
