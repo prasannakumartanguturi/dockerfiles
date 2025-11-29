@@ -4,3 +4,4 @@ FROM nginx
 WORKDIR /opt/server
 RUN useradd roboshop
 USER roboshop
+CMD ["nginx", "-g", "daemon off;"]
