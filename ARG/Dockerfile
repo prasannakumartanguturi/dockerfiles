@@ -4,7 +4,7 @@
 # ARG VERSION  ->  we can't access this ARG after FROM instruction
 # FROM nginx:${VERSION:-9}
 
-FROM nginx:9
+FROM nginx
 ARG course="devops_docker" \
     trainer="siva" 
 ENV course = "docker" \
